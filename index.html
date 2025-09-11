@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sena Votos</title>
+    <style>
+        /* Establecemos el cuerpo y el html para que ocupen toda la pantalla */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            /* Usamos Flexbox para centrar fácilmente */
+            justify-content: center;
+            /* Centra horizontalmente */
+            align-items: center;
+            /* Centra verticalmente */
+            background-color: #f4f4f4;
+            /* Un color de fondo suave */
+        }
+
+        /* Quitamos la decoración por defecto del enlace */
+        a {
+            text-decoration: none;
+        }
+
+        /* Estilos para hacer el botón grande y atractivo */
+        button {
+            padding: 20px 40px;
+            /* Aumenta el espacio interno (alto y ancho) */
+            font-size: 24px;
+            /* Aumenta el tamaño de la letra */
+            font-weight: bold;
+            color: white;
+            background-color: #007bff;
+            /* Color de fondo azul */
+            border: none;
+            /* Sin bordes */
+            border-radius: 8px;
+            /* Bordes redondeados */
+            cursor: pointer;
+            /* Muestra una mano al pasar el cursor */
+            transition: background-color 0.3s ease;
+            /* Transición suave para el hover */
+        }
+
+        /* Efecto al pasar el cursor sobre el botón */
+        button:hover {
+            background-color: #0056b3;
+            /* Un azul más oscuro */
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="http://ec2-34-229-11-16.compute-1.amazonaws.com:8080/">
+        <button>
+            Ingresar
+        </button>
+    </a>
+
+</body>
+
+</html>
